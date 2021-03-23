@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:text="  Numbers"
+            android:background="@color/red"
+            android:textStyle="bold"
+            android:paddingLeft="32dp"
+            android:onClick="myListener"
+            android:textSize="22sp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:paddingTop="32dp"
+            android:textAlignment="gravity"
+            android:id="@+id/numbers"/>
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:text="  Colors"
+            android:paddingLeft="32dp"
+            android:textStyle="bold"
+            android:onClick="myListener2"
+            android:textSize="22sp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textAlignment="gravity"
+            android:paddingTop="32dp"
+            android:background="@color/orange"
+            android:id="@+id/colors"/>
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:text="  Family Members"
+            android:paddingLeft="32dp"
+            android:onClick="myListener3"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textAllCaps="false"
+            android:paddingTop="32dp"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            android:textAlignment="gravity"
+            android:id="@+id/familymembers"/>
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:background="@color/green"
+            android:onClick="myListener4"
+            android:paddingLeft="32dp"
+            android:paddingTop="32dp"
+            android:textStyle="bold"
+            android:textAlignment="gravity"
+            android:textSize="22sp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:text="  Phrases"
+
+            android:id="@+id/phrases"/>
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

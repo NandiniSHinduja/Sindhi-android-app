@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Colors">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="colorplay1"
+                android:src="@drawable/color_black"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="292dp"
+                    android:layout_height="34dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:background="@color/orange"
+                    android:onClick="colorplay1"
+                    android:text="karo"/>
+                <TextView
+                    android:layout_width="292dp"
+                    android:layout_height="34dp"
+                    android:paddingLeft="16dp"
+                    android:background="@color/orange"
+                    android:textColor="@color/white"
+                    android:paddingBottom="16dp"
+
+                    android:text="black"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="33dp"
+                    android:layout_height="16dp"
+                    android:background="@color/orange"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/orange"
+                    android:onClick="colorplay1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/baseline_play_arrow_black_18dp"/>
+                <TextView
+                    android:layout_width="33.5dp"
+                    android:layout_height="16.5dp"
+                    android:background="@color/orange"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    <TableRow
+        android:id="@+id/hr11"
+        android:layout_width="400dp"
+        android:layout_height="1dp"
+        android:background="#444" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="colorplay2"
+                android:src="@drawable/color_brown"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="292dp"
+                    android:layout_height="34dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:background="@color/orange"
+                    android:onClick="colorplay2"
+                    android:text="badami rang "/>
+                <TextView
+                    android:layout_width="292dp"
+                    android:layout_height="34dp"
+                    android:paddingLeft="16dp"
+                    android:background="@color/orange"
+                    android:textColor="@color/white"
+                    android:paddingBottom="16dp"
+
+                    android:text="brown"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="33dp"
+                    android:layout_height="16dp"
+                    android:background="@color/orange"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/orange"
+                    android:onClick="colorplay2"
+                    android:id="@+id/well1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/baseline_play_arrow_black_18dp"/>
+                <TextView
+                    android:layout_width="33.5dp"
+                    android:layout_height="16.5dp"
+                    android:background="@color/orange"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    <TableRow
+        android:id="@+id/hr111"
+        android:layout_width="400dp"
+        android:layout_height="1dp"
+        android:background="#444" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="colorplay3"
+                android:src="@drawable/color_dusty_yellow"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="292dp"
+                    android:layout_height="34dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:background="@color/orange"
+                    android:onClick="colorplay3"
+                    android:text="shakhi"/>
+                <TextView
+                    android:layout_width="292dp"
+                    android:layout_height="34dp"
+                    android:paddingLeft="16dp"
+                    android:background="@color/orange"
+                    android:textColor="@color/white"
+                    android:paddingBottom="16dp"
+
+                    android:text="dusty yellow"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="33dp"
+                    android:layout_height="16dp"
+                    android:background="@color/orange"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/orange"
+                    android:onClick="colorplay3"
+                    android:layout_gravity="center"
+                    android:src="@drawable/baseline_play_arrow_black_18dp"/>
+                <TextView
+                    android:layout_width="33.5dp"
+                    android:layout_height="16.5dp"
+                    android:background="@color/orange"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    <TableRow
+        android:id="@+id/hr1111"
+        android:layout_width="400dp"
+        android:layout_height="1dp"
+        android:background="#444" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="colorplay4"
+                android:src="@drawable/color_gray"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="292dp"
+                    android:layout_height="34dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:background="@color/orange"
+                    android:onClick="colorplay4"
+                    android:text="khaaki"/>
+                <TextView
+                    android:layout_width="292dp"
+                    android:layout_height="34dp"
+                    android:paddingLeft="16dp"
+                    android:background="@color/orange"
+                    android:textColor="@color/white"
+                    android:paddingBottom="16dp"
+
+                    android:text="grey"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="33dp"
+                    android:layout_height="16dp"
+                    android:background="@color/orange"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/orange"
+                    android:onClick="colorplay4"
+                    android:layout_gravity="center"
+                    android:src="@drawable/baseline_play_arrow_black_18dp"/>
+                <TextView
+                    android:layout_width="33.5dp"
+                    android:layout_height="16.5dp"
+                    android:background="@color/orange"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    <TableRow
+        android:id="@+id/hr12"
+        android:layout_width="400dp"
+        android:layout_height="1dp"
+        android:background="#444" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="colorplay5"
+                android:src="@drawable/color_green"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="292dp"
+                    android:layout_height="34dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:background="@color/orange"
+                    android:onClick="colorplay5"
+                    android:text="saao"/>
+                <TextView
+                    android:layout_width="292dp"
+                    android:layout_height="34dp"
+                    android:paddingLeft="16dp"
+                    android:background="@color/orange"
+                    android:textColor="@color/white"
+                    android:paddingBottom="16dp"
+
+                    android:text="green"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="33dp"
+                    android:layout_height="16dp"
+                    android:background="@color/orange"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/orange"
+                    android:onClick="colorplay5"
+                    android:layout_gravity="center"
+                    android:src="@drawable/baseline_play_arrow_black_18dp"/>
+                <TextView
+                    android:layout_width="33.5dp"
+                    android:layout_height="16.5dp"
+                    android:background="@color/orange"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    <TableRow
+        android:id="@+id/hr13"
+        android:layout_width="400dp"
+        android:layout_height="1dp"
+        android:background="#444" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="colorplay6"
+                android:src="@drawable/color_mustard_yellow"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="292dp"
+                    android:layout_height="34dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:background="@color/orange"
+                    android:onClick="colorplay6"
+                    android:text="pelo"/>
+                <TextView
+                    android:layout_width="292dp"
+                    android:layout_height="34dp"
+                    android:paddingLeft="16dp"
+                    android:background="@color/orange"
+                    android:textColor="@color/white"
+                    android:paddingBottom="16dp"
+
+                    android:text="yellow"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="33dp"
+                    android:layout_height="16dp"
+                    android:background="@color/orange"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/orange"
+                    android:onClick="colorplay6"
+                    android:layout_gravity="center"
+                    android:src="@drawable/baseline_play_arrow_black_18dp"/>
+                <TextView
+                    android:layout_width="33.5dp"
+                    android:layout_height="16.5dp"
+                    android:background="@color/orange"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    <TableRow
+        android:id="@+id/hr14"
+        android:layout_width="400dp"
+        android:layout_height="1dp"
+        android:background="#444" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="colorplay7"
+                android:src="@drawable/color_red"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="292dp"
+                    android:layout_height="34dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:background="@color/orange"
+                    android:onClick="colorplay7"
+                    android:text="garo"/>
+                <TextView
+                    android:layout_width="292dp"
+                    android:layout_height="34dp"
+                    android:paddingLeft="16dp"
+                    android:background="@color/orange"
+                    android:textColor="@color/white"
+                    android:paddingBottom="16dp"
+
+                    android:text="red"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="33dp"
+                    android:layout_height="16dp"
+                    android:background="@color/orange"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/orange"
+                    android:onClick="colorplay7"
+                    android:layout_gravity="center"
+                    android:src="@drawable/baseline_play_arrow_black_18dp"/>
+                <TextView
+                    android:layout_width="33.5dp"
+                    android:layout_height="16.5dp"
+                    android:background="@color/orange"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    <TableRow
+        android:id="@+id/hr15"
+        android:layout_width="400dp"
+        android:layout_height="1dp"
+        android:background="#444" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="colorplay8"
+                android:src="@drawable/color_white"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="292dp"
+                    android:layout_height="34dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:background="@color/orange"
+                    android:onClick="colorplay8"
+                    android:text="achho"/>
+                <TextView
+                    android:layout_width="292dp"
+                    android:layout_height="34dp"
+                    android:paddingLeft="16dp"
+                    android:background="@color/orange"
+                    android:textColor="@color/white"
+                    android:paddingBottom="16dp"
+
+                    android:text="white"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="33dp"
+                    android:layout_height="16dp"
+                    android:background="@color/orange"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/orange"
+                    android:onClick="colorplay8"
+
+                    android:layout_gravity="center"
+                    android:src="@drawable/baseline_play_arrow_black_18dp"/>
+                <TextView
+                    android:layout_width="33.5dp"
+                    android:layout_height="16.5dp"
+                    android:background="@color/orange"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    <TableRow
+        android:id="@+id/hr"
+        android:layout_width="400dp"
+        android:layout_height="1dp"
+        android:background="#444" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

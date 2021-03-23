@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FamilyMembers">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:onClick="musicplay11"
+            android:src="@drawable/family_father"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="292dp"
+                android:layout_height="34dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@color/blue"
+                android:onClick="musicplay11"
+                android:text="peeu"/>
+            <TextView
+                android:layout_width="292dp"
+                android:layout_height="34dp"
+                android:paddingLeft="16dp"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:paddingBottom="16dp"
+
+                android:text="father"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="33dp"
+                android:layout_height="16dp"
+                android:background="@color/blue"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:onClick="musicplay11"
+                android:id="@+id/well1"
+                android:layout_gravity="center"
+                android:src="@drawable/baseline_play_arrow_black_18dp"/>
+            <TextView
+                android:layout_width="33.5dp"
+                android:layout_height="16.5dp"
+                android:background="@color/blue"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TableRow
+        android:id="@+id/hr"
+        android:layout_width="400dp"
+        android:layout_height="1dp"
+        android:background="#444" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:onClick="musicplay12"
+            android:src="@drawable/family_mother"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="292dp"
+                android:layout_height="34dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@color/blue"
+                android:onClick="musicplay12"
+                android:text="maau"/>
+            <TextView
+                android:layout_width="292dp"
+                android:layout_height="34dp"
+                android:paddingLeft="16dp"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:paddingBottom="16dp"
+
+                android:text="mother"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="33dp"
+                android:layout_height="16dp"
+                android:background="@color/blue"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:onClick="musicplay12"
+
+                android:layout_gravity="center"
+                android:src="@drawable/baseline_play_arrow_black_18dp"/>
+            <TextView
+                android:layout_width="33.5dp"
+                android:layout_height="16.5dp"
+                android:background="@color/blue"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TableRow
+        android:id="@+id/hr32"
+        android:layout_width="400dp"
+        android:layout_height="1dp"
+        android:background="#444" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:onClick="musicplay13"
+            android:src="@drawable/family_son"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="292dp"
+                android:layout_height="34dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@color/blue"
+                android:onClick="musicplay13"
+                android:text="putt"/>
+            <TextView
+                android:layout_width="292dp"
+                android:layout_height="34dp"
+                android:paddingLeft="16dp"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:paddingBottom="16dp"
+
+                android:text="son"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="33dp"
+                android:layout_height="16dp"
+                android:background="@color/blue"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:onClick="musicplay13"
+
+                android:layout_gravity="center"
+                android:src="@drawable/baseline_play_arrow_black_18dp"/>
+            <TextView
+                android:layout_width="33.5dp"
+                android:layout_height="16.5dp"
+                android:background="@color/blue"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TableRow
+        android:id="@+id/hr33"
+        android:layout_width="400dp"
+        android:layout_height="1dp"
+        android:background="#444" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:onClick="musicplay14"
+            android:src="@drawable/family_daughter"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="292dp"
+                android:layout_height="34dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@color/blue"
+                android:onClick="musicplay14"
+                android:text="diya"/>
+            <TextView
+                android:layout_width="292dp"
+                android:layout_height="34dp"
+                android:paddingLeft="16dp"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:paddingBottom="16dp"
+
+                android:text="daughter"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="33dp"
+                android:layout_height="16dp"
+                android:background="@color/blue"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:onClick="musicplay14"
+
+                android:layout_gravity="center"
+                android:src="@drawable/baseline_play_arrow_black_18dp"/>
+            <TextView
+                android:layout_width="33.5dp"
+                android:layout_height="16.5dp"
+                android:background="@color/blue"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TableRow
+        android:id="@+id/hr34"
+        android:layout_width="400dp"
+        android:layout_height="1dp"
+        android:background="#444" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:onClick="musicplay15"
+            android:src="@drawable/family_older_brother"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="292dp"
+                android:layout_height="34dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@color/blue"
+                android:onClick="musicplay15"
+                android:text="vado bha"/>
+            <TextView
+                android:layout_width="292dp"
+                android:layout_height="34dp"
+                android:paddingLeft="16dp"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:paddingBottom="16dp"
+
+                android:text="elder brother"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="33dp"
+                android:layout_height="16dp"
+                android:background="@color/blue"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:onClick="musicplay15"
+
+                android:layout_gravity="center"
+                android:src="@drawable/baseline_play_arrow_black_18dp"/>
+            <TextView
+                android:layout_width="33.5dp"
+                android:layout_height="16.5dp"
+                android:background="@color/blue"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TableRow
+        android:id="@+id/hr35"
+        android:layout_width="400dp"
+        android:layout_height="1dp"
+        android:background="#444" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:onClick="musicplay16"
+            android:src="@drawable/family_younger_brother"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="292dp"
+                android:layout_height="34dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@color/blue"
+                android:onClick="musicplay16"
+                android:text="nado bha"/>
+            <TextView
+                android:layout_width="292dp"
+                android:layout_height="34dp"
+                android:paddingLeft="16dp"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:paddingBottom="16dp"
+
+                android:text="younger brother"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="33dp"
+                android:layout_height="16dp"
+                android:background="@color/blue"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:onClick="musicplay16"
+
+                android:layout_gravity="center"
+                android:src="@drawable/baseline_play_arrow_black_18dp"/>
+            <TextView
+                android:layout_width="33.5dp"
+                android:layout_height="16.5dp"
+                android:background="@color/blue"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TableRow
+        android:id="@+id/hr36"
+        android:layout_width="400dp"
+        android:layout_height="1dp"
+        android:background="#444" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:onClick="musicplay17"
+            android:src="@drawable/family_older_sister"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="292dp"
+                android:layout_height="34dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@color/blue"
+                android:onClick="musicplay17"
+                android:text="vadi behnn"/>
+            <TextView
+                android:layout_width="292dp"
+                android:layout_height="34dp"
+                android:paddingLeft="16dp"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:paddingBottom="16dp"
+
+                android:text="elder sister"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="33dp"
+                android:layout_height="16dp"
+                android:background="@color/blue"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:onClick="musicplay17"
+
+                android:layout_gravity="center"
+                android:src="@drawable/baseline_play_arrow_black_18dp"/>
+            <TextView
+                android:layout_width="33.5dp"
+                android:layout_height="16.5dp"
+                android:background="@color/blue"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TableRow
+        android:id="@+id/hr37"
+        android:layout_width="400dp"
+        android:layout_height="1dp"
+        android:background="#444" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:onClick="musicplay18"
+            android:src="@drawable/family_younger_sister"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="292dp"
+                android:layout_height="34dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@color/blue"
+                android:onClick="musicplay18"
+                android:text="nadi behnn"/>
+            <TextView
+                android:layout_width="292dp"
+                android:layout_height="34dp"
+                android:paddingLeft="16dp"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:paddingBottom="16dp"
+
+                android:text="younger sister"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="33dp"
+                android:layout_height="16dp"
+                android:background="@color/blue"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:onClick="musicplay18"
+
+                android:layout_gravity="center"
+                android:src="@drawable/baseline_play_arrow_black_18dp"/>
+            <TextView
+                android:layout_width="33.5dp"
+                android:layout_height="16.5dp"
+                android:background="@color/blue"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TableRow
+        android:id="@+id/hr38"
+        android:layout_width="400dp"
+        android:layout_height="1dp"
+        android:background="#444" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:onClick="musicplay19"
+            android:src="@drawable/family_grandmother"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="292dp"
+                android:layout_height="34dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@color/blue"
+                android:onClick="musicplay19"
+                android:text="dadi"/>
+            <TextView
+                android:layout_width="292dp"
+                android:layout_height="34dp"
+                android:paddingLeft="16dp"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:paddingBottom="16dp"
+
+                android:text="grandmother"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="33dp"
+                android:layout_height="16dp"
+                android:background="@color/blue"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:onClick="musicplay19"
+
+                android:layout_gravity="center"
+                android:src="@drawable/baseline_play_arrow_black_18dp"/>
+            <TextView
+                android:layout_width="33.5dp"
+                android:layout_height="16.5dp"
+                android:background="@color/blue"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TableRow
+        android:id="@+id/hr39"
+        android:layout_width="400dp"
+        android:layout_height="1dp"
+        android:background="#444" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:onClick="musicplay20"
+            android:src="@drawable/family_grandfather"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="292dp"
+                android:layout_height="34dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@color/blue"
+                android:onClick="musicplay20"
+                android:text="daado"/>
+            <TextView
+                android:layout_width="292dp"
+                android:layout_height="34dp"
+                android:paddingLeft="16dp"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:paddingBottom="16dp"
+
+                android:text="grandfather"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="33dp"
+                android:layout_height="16dp"
+                android:background="@color/blue"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:onClick="musicplay20"
+
+                android:layout_gravity="center"
+                android:src="@drawable/baseline_play_arrow_black_18dp"/>
+            <TextView
+                android:layout_width="33.5dp"
+                android:layout_height="16.5dp"
+                android:background="@color/blue"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TableRow
+        android:id="@+id/hr40"
+        android:layout_width="400dp"
+        android:layout_height="1dp"
+        android:background="#444" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
